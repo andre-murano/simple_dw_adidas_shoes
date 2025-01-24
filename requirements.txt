@@ -1,0 +1,13 @@
+# Bibliotecas principais para o src
+
+
+pandas>=1.3.0          # Manipulação de DataFrames e leitura de arquivos CSV
+sqlalchemy>=1.4.0      # Conexão e ORM com PostgreSQL
+psycopg2-binary>=2.9.0 # Driver para conexão com PostgreSQL
+
+
+#Bibliotecas presentes no Python nativamente:
+
+# os
+# pathlib
+
