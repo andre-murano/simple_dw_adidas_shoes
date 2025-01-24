@@ -3,11 +3,16 @@
 
 pandas==2.2.3          # Manipulação de DataFrames e leitura de arquivos CSV
 sqlalchemy==2.0.36      # Conexão e ORM com PostgreSQL
-psycopg2-binary>=2.9.10 # Driver para conexão com PostgreSQL
+psycopg2==2.9.10 # Driver para conexão com PostgreSQL
 
 
 #Bibliotecas presentes no Python nativamente:
 
 # os
 # pathlib
+
+
+#Instalação dos pacotes:
+# pip install -r requirements.txt
+
 
