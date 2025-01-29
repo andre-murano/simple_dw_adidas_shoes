@@ -3,7 +3,8 @@ import os
 
 def descompactar_arquivo(zip_path):
 
-    destino = os.path.dirname(zip_path)  # Define o mesmo diretório do ZIP
+    destino = os.path.dirname(zip_path)  # Retorna o destino da pasta, sem referenciar o arquivo archive.zip
+                                         # Output: C:\Users\andre\Desktop\Projetos\projeto1\data\dataset
 
     try:
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
