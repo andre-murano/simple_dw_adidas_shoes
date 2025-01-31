@@ -6,7 +6,7 @@ def criar_conexao():
     server_name = "projeto1"
     host = "localhost"
     port = "5432"
-    maintenance_db = "postgres"
+    maintenance_db = "projeto1"
     username = "projeto1"
     password = "projeto1"
 
