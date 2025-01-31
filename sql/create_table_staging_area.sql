@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS staging_area.st_country(
 
 CREATE TABLE IF NOT EXISTS staging_area.st_shoes_dim(
 	shoes_id VARCHAR(10),
-	name VARCHAR(60),
+	name VARCHAR(100),
 	best_for_wear VARCHAR(20),
 	gender VARCHAR(5),
 	image_url VARCHAR(250),
@@ -27,8 +27,8 @@ CREATE TABLE IF NOT EXISTS staging_area.st_shoes_fact(
 	serial_id INT,
 	shoes_id VARCHAR(10),
 	price DECIMAL(10, 2),
-	category VARCHAR(15),
-	size VARCHAR (10),
+	category VARCHAR(30),
+	size VARCHAR (30),
 	stock INT,
 	date INT,
 	country_id VARCHAR(5)
